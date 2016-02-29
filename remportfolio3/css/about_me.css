@@ -1,0 +1,132 @@
+/* CSS Document */
+/*body {
+  font-family: sans-serif;
+  margin: 0;
+}*/
+
+.content2 {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 0px;
+}
+
+
+/* HEADING */
+
+.header-content2 {
+    height: 100%;
+}
+
+header2 {
+    height: 25vw;
+    max-height: 150px;
+    width: 100%;
+}
+
+.udacity-logo {
+    max-height: 100%;
+    width: 20%;
+    float: left;
+}
+
+h1.version2 {
+    float: left;
+    padding-top: 5%;
+    width: 80%;
+    font-weight: normal;
+/*  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;*/;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 380px) {
+    h1.version2 {
+        font-size: 24px;
+    };
+}
+
+@media screen and (max-width: 464px) and (min-width: 381px) {
+    h1.version2 {
+        font-size: 32px;
+    };
+}
+
+@media screen and (min-width: 465px) {
+    h1.version2 {
+        font-size: 36px;
+        padding-bottom: 48px;
+    };
+}
+
+@media screen and (min-width: 550px) {
+    .header-content2 {
+        padding-top: 15px;
+    };
+}
+
+@media screen and (max-width: 549px) {
+    .header-content2 {
+        padding-top: 5px;
+    };
+}
+
+
+/* MAIN SECTIONS */
+
+.hero2 {
+    padding: 1em;
+    max-width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.my-picture2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    max-width: 100%;
+    border: 2px solid white;
+	/*-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;*/
+    border-radius: 50%;
+}
+
+.iama2 {
+    display: block;
+    max-width: 100%;
+    color: #969696;
+    letter-spacing: 0.05em;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.my-info2 {
+    max-width: 100%;
+    font-size: 22px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.my-info2:last-of-type {
+    margin: 0;
+}
+
+.my-name2 {
+    color: white;
+}
+
+.about-me2 {
+    padding: 1em;
+}
+
+.contact_title,.contact_email {
+    text-align: center;
+}
+
+.contact_email {
+    font-size: 24px;
+}

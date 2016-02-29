@@ -1,0 +1,73 @@
+hr {
+    height: 2px;
+    background-color: #555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.logo {
+    max-width: 150px;
+    min-width: 100px;
+    margin-top: 5px;
+}
+
+.add20px_of_margin {
+    margin-top: 20px;
+}
+
+.my_name {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.my_name_small {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+
+.tap_touch {
+    min-height: 48px;
+    min-width: 48px;
+    width: 100%;
+}
+
+.feature_work_wrapper {
+    max-width: 100%;
+}
+
+.fimgwidth {
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+}
+
+@media screen and (max-width:360px) {
+	
+    .my_name {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 17px;
+        font-weight: normal;
+    }
+
+    .my_name_small {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-size: 16px;
+        top: 0px;
+        bottom: 0px;
+    }
+
+    .logo {
+        margin-top: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        max-width: 25px;
+    }
+}
